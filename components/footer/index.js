@@ -1,3 +1,3 @@
-import Textarea from "./Textarea";
+import Footer from "./Footer";
 
-export default Textarea;
+export default Footer;
