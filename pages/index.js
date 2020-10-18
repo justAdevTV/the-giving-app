@@ -1,5 +1,9 @@
 import { Banner } from "../components";
-import { HomeBannerContent, MakeADifference } from "../features";
+import {
+  DownloadPreview,
+  HomeBannerContent,
+  MakeADifference,
+} from "../features";
 import { Home as HomeTemplate } from "../templates";
 
 // Main Page
@@ -21,8 +25,7 @@ function Home() {
         </Banner>
       }
       difference={<MakeADifference />}
-      download={null}
-      sponsors={null}
+      download={<DownloadPreview onDownloadClick={handleRedirectClick} />}
       helpInfo={null}
       contact={null}
     />
