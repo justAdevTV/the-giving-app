@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const _Button = styled.button`
-  padding: ${({ large }) => (large ? "2.5rem" : "1.8rem ")} 3rem;
+  padding: ${({ large }) => (large ? "2.5rem" : "2rem ")} 3rem;
   font-size: 2.4rem;
   border-radius: ${({ large }) => (large ? " 2rem" : "1.5rem")};
   color: ${({ theme, inverted }) =>
