@@ -1,5 +1,5 @@
 import { Banner } from "../components";
-import { HomeBannerContent } from "../features";
+import { HomeBannerContent, MakeADifference } from "../features";
 import { Home as HomeTemplate } from "../templates";
 
 // Main Page
@@ -20,7 +20,7 @@ function Home() {
           />
         </Banner>
       }
-      difference={null}
+      difference={<MakeADifference />}
       download={null}
       sponsors={null}
       helpInfo={null}
