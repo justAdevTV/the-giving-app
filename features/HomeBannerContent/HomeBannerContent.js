@@ -19,7 +19,7 @@ function HomeBannerContent({ onRedirectClick, onScrollDownClick }) {
           DONATE
         </Button>
       </_Buttons>
-      <Indicator />
+      <Indicator onClick={() => onScrollDownClick()} />
     </_HomeBannerContent>
   );
 }

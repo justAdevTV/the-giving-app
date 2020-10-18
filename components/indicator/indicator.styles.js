@@ -10,6 +10,16 @@ const _Indicator = styled.a`
   color: ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => theme.colors.ghostWhite};
   border-radius: 50%;
+  box-shadow: ${({ theme }) => theme.shadows.shadow1};
+  transition: transform 0.15s ease-in;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
 `;
 
 export { _Indicator };
