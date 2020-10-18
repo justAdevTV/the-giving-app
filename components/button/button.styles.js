@@ -16,7 +16,7 @@ const _Button = styled.button`
   &:hover {
     background-color: ${({ theme, inverted }) =>
       inverted ? theme.colors.grayLight1 : theme.colors.primaryDark};
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
   &:focus {
     outline: none;

@@ -4,7 +4,7 @@ function Home() {
   return (
     <Banner backgroundImage="/images/home_banner.jpg">
       hi
-      <Button>DOWNLOAD</Button>
+      {/* <Button>DOWNLOAD</Button> */}
     </Banner>
   );
 }

@@ -1,9 +1,14 @@
 import PropTypes from "prop-types";
 import { _Button } from "./button.styles";
 
-function Button({ children, inverted, large, onClick }) {
+function Button({ children, className, inverted, large, onClick }) {
   return (
-    <_Button inverted={inverted} large={large} onClick={onClick}>
+    <_Button
+      className={className}
+      inverted={inverted}
+      large={large}
+      onClick={onClick}
+    >
       {children}
     </_Button>
   );
@@ -15,6 +20,7 @@ Button.defaultProps = {
 
 Button.propTypes = {
   children: PropTypes.node.isRequired,
+  className: PropTypes.string,
   inverted: PropTypes.bool,
   large: PropTypes.bool,
   onClick: PropTypes.func,
