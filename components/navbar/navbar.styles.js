@@ -5,7 +5,7 @@ const _Navbar = styled.nav`
   top: 0;
   padding: 4.5rem 9rem;
   padding-bottom: 1rem;
-  width: 100%;
+  width: -webkit-fill-available;
   z-index: 999;
   display: flex;
 
