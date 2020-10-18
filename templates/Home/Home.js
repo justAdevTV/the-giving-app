@@ -5,12 +5,12 @@ function Home({ banner, difference, download, sponsors, helpInfo, contact }) {
   // Change this to components if needed
   return (
     <_Home>
-      <div>{banner}</div>
-      <div>{difference}</div>
-      <div>{download}</div>
-      <div>{sponsors}</div>
-      <div>{helpInfo}</div>
-      <div>{contact}</div>
+      <section>{banner}</section>
+      <section>{difference}</section>
+      <section>{download}</section>
+      <section>{sponsors}</section>
+      <section>{helpInfo}</section>
+      <section>{contact}</section>
     </_Home>
   );
 }

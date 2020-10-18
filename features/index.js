@@ -1,3 +1,4 @@
 import HomeBannerContent from "./HomeBannerContent";
+import MakeADifference from "./MakeADifference";
 
-export { HomeBannerContent };
+export { HomeBannerContent, MakeADifference };
