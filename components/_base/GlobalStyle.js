@@ -18,7 +18,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Khula', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-weight: 400;
     font-size: 1.5em;
     line-height: 1.6;
